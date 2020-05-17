@@ -75,10 +75,10 @@ function makeSound(key){
 
 function buttonAnimation(currentkey){
   var activeButton=document.querySelector("." + currentkey);
-  activeButton.classList.add(".press");
+  activeButton.classList.add("press");
   setTimeout(function(){
-    activeButton.classList.remove(".press");
-  },1000);
+    activeButton.classList.remove("press");
+  },100);
 }
 
 // var audio=new Audio("sounds/tom-1.mp3");
